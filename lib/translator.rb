@@ -63,7 +63,7 @@ def get_english_meaning(jap_emoticon)
     return "Sorry, that emoticon was not found"
   end
   
-  p english_translation
+  english_translation
 end
 
 get_english_meaning("☜(⌒▽⌒)☞")
