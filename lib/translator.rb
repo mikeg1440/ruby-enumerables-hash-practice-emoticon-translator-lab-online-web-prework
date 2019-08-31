@@ -47,13 +47,13 @@ def get_english_meaning(jap_emoticon)
   emoticons = emoticons[:get_meaning]
   english_translation = ""
   
-  emoticons.each do |key, array|
+  emoticons.each do |emoticon, meaning|
     
-    puts "Key: #{key}\nArray: #{array}"
+    puts "Key: #{emoticon}\nArray: #{meaning}"
     
-    array.select do |elem|
-      if elem == jap_emoticon
-        english_translation = key
+    meaning.select do |elem|
+      if emoticon == jap_emoticon
+        english_translation = meaning
       end
     end
     
