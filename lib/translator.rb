@@ -63,5 +63,5 @@ def get_english_meaning(jap_emoticon)
   english_translation
 end
 
-# get_english_meaning("☜(⌒▽⌒)☞")
-load_library("lib/emoticons.yml")
+get_english_meaning("☜(⌒▽⌒)☞")
+# load_library("lib/emoticons.yml")
