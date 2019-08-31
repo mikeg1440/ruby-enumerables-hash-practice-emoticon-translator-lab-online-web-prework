@@ -18,6 +18,8 @@ def load_library(file)
   new_hash
 end
 
+
+
 def get_japanese_emoticon(eng_emoticon)
   emoticons = load_library
   emoticons_key = ""
