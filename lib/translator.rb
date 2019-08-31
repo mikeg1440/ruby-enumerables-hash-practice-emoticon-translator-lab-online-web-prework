@@ -23,7 +23,7 @@ def get_japanese_emoticon(file, eng_emoticon)
   emoticons = emoticons[:get_emoticon]
   
   
-  japanese_emoticon = emoticons.key(eng_emoticon)
+  japanese_emoticon = emoticons[eng_emoticon]
 
   if !japanese_emoticon
     return "Sorry, that emoticon was not found"
