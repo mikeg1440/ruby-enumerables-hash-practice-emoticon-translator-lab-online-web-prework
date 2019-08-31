@@ -25,9 +25,9 @@ def get_japanese_emoticon(eng_emoticon)
   emoticons = emoticons[:get_emoticon]
   emoticons_key = ""
 
-  emoticons.each do |key, array|
+  emoticons.each do |emoticon, array|
     
-    puts "K: #{key}\nA: #{array}"
+    puts "K: #{emoticon}\nA: #{array}"
     
     
     
