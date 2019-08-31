@@ -29,6 +29,8 @@ def get_japanese_emoticon(eng_emoticon)
     
     puts "K: #{key}\nA: #{array}"
     
+    
+    
     #array.select do |elem| 
       # if elem == eng_emoticon
       #   emoticons_key = key
