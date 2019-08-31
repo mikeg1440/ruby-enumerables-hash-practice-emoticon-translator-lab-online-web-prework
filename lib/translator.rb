@@ -58,4 +58,4 @@ end
 # get_japanese_emoticon("%)")
 # load_library("lib/emoticons.yml")
 
-puts load_library("./lib/emoticons.yml")
+# puts load_library("./lib/emoticons.yml")
