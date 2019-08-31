@@ -21,7 +21,7 @@ end
 
 
 def get_japanese_emoticon(eng_emoticon)
-  emoticons = load_library
+  emoticons = load_library("lib/emoticons.yml")
   emoticons_key = ""
 
   emoticons.each do |key, array|
