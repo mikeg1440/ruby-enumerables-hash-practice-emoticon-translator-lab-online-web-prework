@@ -25,13 +25,10 @@ def get_japanese_emoticon(eng_emoticon)
   emoticons = emoticons[:get_emoticon]
   emoticons_key = ""
 
-  puts emoticons
-
   emoticons.each do |emoticon, array|
     
     puts "K: #{emoticon}\nA: #{array}"
-    
-    
+  
     
     #array.select do |elem| 
       # if elem == eng_emoticon
