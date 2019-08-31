@@ -28,7 +28,7 @@ def get_japanese_emoticon(eng_emoticon)
   japanese_emoticon = emoticons.key(eng_emoticon)
 
   if !japanese_emoticon
-    return 
+    return "Sorry, that emoticon was not found"
   end
   
 
