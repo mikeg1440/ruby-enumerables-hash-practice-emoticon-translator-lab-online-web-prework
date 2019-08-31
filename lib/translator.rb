@@ -18,8 +18,8 @@ end
 
 
 
-def get_japanese_emoticon(eng_emoticon)
-  emoticons = load_library("lib/emoticons.yml")
+def get_japanese_emoticon(file, eng_emoticon)
+  emoticons = load_library(file)
   emoticons = emoticons[:get_emoticon]
   
   
