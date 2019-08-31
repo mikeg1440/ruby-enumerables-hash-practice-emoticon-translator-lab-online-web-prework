@@ -18,7 +18,7 @@ end
 
 
 
-def get_japanese_emoticon(file, eng_emoticon)             # takes a yaml file's path and english emoticon as a arguments and  
+def get_japanese_emoticon(file, eng_emoticon)             # takes a yaml file's path and english emoticon as a arguments and returns the japanese emoticons 
   emoticons = load_library(file)
   emoticons = emoticons[:get_emoticon]
   
@@ -32,7 +32,7 @@ def get_japanese_emoticon(file, eng_emoticon)             # takes a yaml file's 
   japanese_emoticon
 end
 
-def get_english_meaning(file, jap_emoticon)
+def get_english_meaning(file, jap_emoticon)                 # takes a yaml file's path and japanese emoticon as arguemtns and returns the meaning
   emoticons = load_library(file)
   emoticons = emoticons[:get_meaning]
   english_translation = ""
