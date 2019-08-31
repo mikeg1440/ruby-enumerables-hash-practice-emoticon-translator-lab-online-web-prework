@@ -7,11 +7,11 @@ def load_library(file)              # takes a yaml files path as parameter and r
     :get_emoticon => {}
   }
 
-  file_hash.each do |meaning, array|
+  file_hash.each do |meaning, emoticons|
     # puts "Key: #{key}\nArray: #{array}"
     
-    new_hash[:get_emoticon][array[0]] = array[1]
-    new_hash[:get_meaning][array[1]] = meaning
+    new_hash[:get_emoticon][emoticons[0]] = emoticons[1]
+    new_hash[:get_meaning][emoticons[1]] = meaning
   end
   new_hash
 end
