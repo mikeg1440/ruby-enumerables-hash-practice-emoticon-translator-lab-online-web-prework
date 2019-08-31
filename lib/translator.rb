@@ -22,16 +22,19 @@ end
 
 def get_japanese_emoticon(eng_emoticon)
   emoticons = load_library("lib/emoticons.yml")
+  emoticons = emoticons[:get_emoticon]
   emoticons_key = ""
 
   emoticons.each do |key, array|
     
-    array.select do |elem| 
-      if elem == eng_emoticon
-        emoticons_key = key
-      end
+    puts "K: #{key}\nA: #{array}"
+    
+    #array.select do |elem| 
+      # if elem == eng_emoticon
+      #   emoticons_key = key
+      # end
       
-    end
+    #end
 
   end
   
