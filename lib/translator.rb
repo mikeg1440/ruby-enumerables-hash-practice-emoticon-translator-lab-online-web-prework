@@ -48,9 +48,9 @@ def get_japanese_emoticon(eng_emoticon)
 
   # end
   
-  if emoticons_key == ""
-    return "Sorry, that emoticon was not found"
-  end
+  # if emoticons_key == ""
+  #   return "Sorry, that emoticon was not found"
+  # end
   
   emoticons[emoticons_key][1]
 end
