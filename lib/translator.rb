@@ -52,7 +52,7 @@ def get_japanese_emoticon(eng_emoticon)
   #   return "Sorry, that emoticon was not found"
   # end
   
-  p jap_emoticon
+  p japanese_emoticon
 end
 
 def get_english_meaning(jap_emoticon)
