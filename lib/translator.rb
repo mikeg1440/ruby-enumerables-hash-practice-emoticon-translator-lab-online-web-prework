@@ -43,7 +43,7 @@ def get_japanese_emoticon(eng_emoticon)
 end
 
 def get_english_meaning(jap_emoticon)
-  emoticons = load_library
+  emoticons = load_library("lib/emoticons.yml")
   english_translation = ""
   
   emoticons.each do |key, array|
