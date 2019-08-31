@@ -6,9 +6,7 @@ def load_library(file)
     :get_meaning => {},
     :get_emoticon => {}
   }
-  
-  
-  
+
   file_hash.each do |key, array|
     # puts "Key: #{key}\nArray: #{array}"
     
