@@ -15,7 +15,7 @@ def load_library(file)
     new_hash[:get_emoticon][array[0]] = key
     new_hash[:get_meaning][array[1]] = key
   end
-  p new_hash
+  new_hash
 end
 
 
