@@ -1,6 +1,6 @@
 require "yaml"
 
-def load_library(file)              # takes a yaml files path as parameter and returns a hash of the values
+def load_library(file)              # takes a yaml files path as arguments and returns a hash of the values
   file_hash = YAML.load_file(file)
   new_hash = {
     :get_meaning => {},
@@ -18,7 +18,7 @@ end
 
 
 
-def get_japanese_emoticon(file, eng_emoticon)
+def get_japanese_emoticon(file, eng_emoticon)             # takes a yaml file's path and english emoticon as a arguments and  
   emoticons = load_library(file)
   emoticons = emoticons[:get_emoticon]
   
