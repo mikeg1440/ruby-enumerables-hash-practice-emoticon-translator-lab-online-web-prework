@@ -32,8 +32,8 @@ def get_japanese_emoticon(file, eng_emoticon)
   japanese_emoticon
 end
 
-def get_english_meaning(jap_emoticon)
-  emoticons = load_library("lib/emoticons.yml")
+def get_english_meaning(file, jap_emoticon)
+  emoticons = load_library(file)
   emoticons = emoticons[:get_meaning]
   english_translation = ""
   
