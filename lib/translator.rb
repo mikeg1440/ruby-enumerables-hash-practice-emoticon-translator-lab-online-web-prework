@@ -13,6 +13,7 @@ def load_library(file)
     puts "Key: #{key}\nArray: #{array}"
     
     new_hash[:get_emoticon][]
+    new_hash[:get_meaning][array[1]] = key
   end
 end
 
