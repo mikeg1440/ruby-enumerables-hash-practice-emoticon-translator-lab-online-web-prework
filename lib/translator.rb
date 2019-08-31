@@ -10,7 +10,7 @@ def load_library(file)
   file_hash.each do |key, array|
     # puts "Key: #{key}\nArray: #{array}"
     
-    new_hash[:get_emoticon][array[1]] = array[0]
+    new_hash[:get_emoticon][array[0]] = array[1]
     new_hash[:get_meaning][array[1]] = key
   end
   new_hash
