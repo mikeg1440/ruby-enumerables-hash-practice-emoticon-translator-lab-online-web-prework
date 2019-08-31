@@ -25,7 +25,7 @@ def get_japanese_emoticon(eng_emoticon)
   emoticons = emoticons[:get_emoticon]
   emoticons_key = ""
 
-  emoticons.each do |jap_emoticon, emoticon|
+  emoticons.each do |emoticon, jap_emoticon|
     
     #puts "K: #{jap_emoticon}\nA: #{emoticon}"
   
