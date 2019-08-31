@@ -11,6 +11,8 @@ def load_library(file)
   
   file_hash.each do |key, array|
     puts "Key: #{key}\nArray: #{array}"
+    
+    new_hash[:get_emoticon][]
   end
 end
 
