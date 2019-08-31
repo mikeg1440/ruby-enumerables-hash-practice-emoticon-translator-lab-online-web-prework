@@ -64,5 +64,6 @@ def get_english_meaning(jap_emoticon)
   english_translation
 end
 
-get_english_meaning("%)")
+#get_english_meaning("%)")
+get_japanese_emoticon("%)")
 # load_library("lib/emoticons.yml")
