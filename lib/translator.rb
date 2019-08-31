@@ -49,6 +49,8 @@ def get_english_meaning(jap_emoticon)
   
   emoticons.each do |key, array|
     
+    puts "Key: #{key}\nArray: #{array}"
+    
     array.select do |elem|
       if elem == jap_emoticon
         english_translation = key
