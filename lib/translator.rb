@@ -51,11 +51,11 @@ def get_english_meaning(jap_emoticon)
     
     puts "Key: #{emoticon}\nArray: #{meaning}"
     
-    meaning.select do |elem|
+   #meaning.select do |elem|
       if emoticon == jap_emoticon
         english_translation = meaning
       end
-    end
+    #end
     
   end
   
